@@ -1,5 +1,6 @@
 # Python dataclasses with encapsulation
-Short description of project
+An example of using @dataclass with pseudo-private instance variables
+
 ## Tools Used
 
 | Tool     |  Version |
