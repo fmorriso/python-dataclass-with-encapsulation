@@ -16,6 +16,10 @@ def main():
     # check equivalence and identity of the two sample instances
     print(f'{p1 == p2 = }')
     print(f'{p1 is p2 = }')
+
+    p3 = Point()
+    print(f'{p3 = }')
+    print(f'{asdict(p3) = }')
     
 def get_python_version() -> str:
     return f'{sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}'
